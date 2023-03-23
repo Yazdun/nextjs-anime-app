@@ -24,10 +24,7 @@ export const ThemeToggle = () => {
   if (!mounted) return null
 
   return (
-    <button
-      className="flex items-center justify-between p-2 border-2 rounded-md dark:border-dark-700 dark:bg-dark-700"
-      onClick={toggleTheme}
-    >
+    <button className="custom-btn" onClick={toggleTheme}>
       <AnimatePresence mode="wait" initial={false}>
         <motion.span {...framer_theme} className="flex" key={isDark}>
           {isDark ? (

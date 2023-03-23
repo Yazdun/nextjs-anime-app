@@ -1,3 +1,9 @@
+import { RxHamburgerMenu } from 'react-icons/rx'
+
 export const Sidebar = () => {
-  return <div>Sidebar</div>
+  return (
+    <button className="custom-btn">
+      <RxHamburgerMenu className="text-[1.2rem]" />
+    </button>
+  )
 }
