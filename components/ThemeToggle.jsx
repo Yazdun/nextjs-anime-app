@@ -5,9 +5,10 @@ import { RiMoonCloudyLine } from 'react-icons/ri'
 import { AnimatePresence, motion } from 'framer-motion'
 
 const framer_theme = {
-  initial: { scale: 0 },
-  animate: { scale: 1 },
-  exit: { scale: 0 },
+  initial: { y: 30 },
+  animate: { y: 0 },
+  exit: { y: -30 },
+  transition: { duration: 0.3 },
 }
 
 export const ThemeToggle = () => {
@@ -24,7 +25,7 @@ export const ThemeToggle = () => {
   if (!mounted) return null
 
   return (
-    <button className="custom-btn" onClick={toggleTheme}>
+    <button className="custom-btn overflow-hidden" onClick={toggleTheme}>
       <AnimatePresence mode="wait" initial={false}>
         <motion.span {...framer_theme} className="flex" key={isDark}>
           {isDark ? (
