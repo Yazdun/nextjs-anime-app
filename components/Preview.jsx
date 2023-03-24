@@ -13,7 +13,7 @@ export const Preview = ({ item, idx }) => {
       )}
     >
       <div className="flex items-center gap-2">
-        <div className="w-full h-[3rem] overflow-hidden rounded-md bg-gray-200 dark:bg-gray-800 max-w-[3rem]">
+        <div className="h-[3rem] overflow-hidden rounded-md bg-gray-200 dark:bg-gray-800 min-w-[3rem]">
           <Image
             src={item.coverImage.extraLarge}
             alt={item.title.romaji}
@@ -21,9 +21,15 @@ export const Preview = ({ item, idx }) => {
             height={50}
           />
         </div>
-        <p className="truncate dark:text-slate-300 w-4rem">
-          {item.title.romaji}
-        </p>
+        <div className="w-full">
+          <p className="font-semibold truncate w-4rem dark:text-slate-300">
+            {item.title.romaji}
+          </p>
+          <p className="text-xs dark:text-slate-400 text-slate-600">
+            <span>{item?.startDate?.year}</span> -{' '}
+            <span>{item?.endDate?.year || 'Now'}</span>
+          </p>
+        </div>
       </div>
 
       <div

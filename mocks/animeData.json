@@ -25,6 +25,11 @@
             "year": 2020,
             "month": 1,
             "day": 1
+          },
+          "endDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
           }
         },
         {
@@ -43,6 +48,11 @@
             "year": 2020,
             "month": 1,
             "day": 1
+          },
+          "endDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 11
           }
         },
         {
@@ -61,6 +71,11 @@
             "year": 2020,
             "month": 1,
             "day": 1
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -79,6 +94,11 @@
             "year": 2020,
             "month": 1,
             "day": 1
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -97,6 +117,11 @@
             "year": 2020,
             "month": 1,
             "day": 2
+          },
+          "endDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 23
           }
         },
         {
@@ -115,6 +140,11 @@
             "year": 2020,
             "month": 1,
             "day": 3
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -133,6 +163,11 @@
             "year": 2020,
             "month": 1,
             "day": 3
+          },
+          "endDate": {
+            "year": 2020,
+            "month": 8,
+            "day": 6
           }
         },
         {
@@ -148,6 +183,11 @@
           },
           "siteUrl": "https://anilist.co/manga/114222",
           "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          },
+          "endDate": {
             "year": 2020,
             "month": 1,
             "day": 4
@@ -169,6 +209,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -187,6 +232,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": 2021,
+            "month": 7,
+            "day": 5
           }
         },
         {
@@ -205,6 +255,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": 2020,
+            "month": 3,
+            "day": 21
           }
         },
         {
@@ -223,6 +278,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -241,6 +301,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": 2022,
+            "month": 12,
+            "day": 2
           }
         },
         {
@@ -256,6 +321,11 @@
           },
           "siteUrl": "https://anilist.co/manga/117024",
           "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          },
+          "endDate": {
             "year": 2020,
             "month": 1,
             "day": 4
@@ -277,6 +347,11 @@
             "year": 2020,
             "month": 1,
             "day": 4
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -292,6 +367,11 @@
           },
           "siteUrl": "https://anilist.co/anime/114761",
           "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          },
+          "endDate": {
             "year": 2020,
             "month": 1,
             "day": 4
@@ -313,6 +393,11 @@
             "year": 2020,
             "month": 1,
             "day": 5
+          },
+          "endDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 5
           }
         },
         {
@@ -330,6 +415,11 @@
           "startDate": {
             "year": 2020,
             "month": 1,
+            "day": 6
+          },
+          "endDate": {
+            "year": 2021,
+            "month": 8,
             "day": 6
           }
         },
@@ -349,6 +439,11 @@
             "year": 2020,
             "month": 1,
             "day": 6
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         },
         {
@@ -367,6 +462,11 @@
             "year": 2020,
             "month": 1,
             "day": 6
+          },
+          "endDate": {
+            "year": null,
+            "month": null,
+            "day": null
           }
         }
       ]

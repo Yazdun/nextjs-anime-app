@@ -1,18 +1,15 @@
-import { Container, Preview } from '@/components'
+import { Container, Preview, Table } from '@/components'
 import { useModifiedSWR } from '@/hooks/useModifiedSWR'
 import AnimeQuery from '@/queries/animeList.graphql'
 import Head from 'next/head'
-import data from '@/mocks/animeData.json'
-import Image from 'next/image'
-import { HiOutlineLink } from 'react-icons/hi'
 
 export default function Home() {
-  // const { data, isLoading } = useModifiedSWR({
-  //   ...AnimeQuery,
-  //   variables: { page: 5 },
-  // })
+  const { data, isLoading } = useModifiedSWR({
+    ...AnimeQuery,
+    variables: { page: 5 },
+  })
 
-  console.log()
+  console.log(data.Page)
 
   return (
     <>
@@ -26,11 +23,7 @@ export default function Home() {
         <h2>Page 1</h2>
       </Container>
       <Container screen>
-        <ul className="text-sm bg-white shadow-sm md:rounded-md md:border dark:shadow-transparent dark:md:border-2 dark:bg-dark-800 dark:border-gray-800">
-          {data.data.Page.media.map((item, idx) => {
-            return <Preview item={item} idx={idx} key={item.id} />
-          })}
-        </ul>
+        <Table data={data?.Page?.media} />
       </Container>
     </>
   )
