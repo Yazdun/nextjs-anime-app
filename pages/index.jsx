@@ -1,10 +1,10 @@
-import { Container } from '@/components'
+import { Container, Preview } from '@/components'
 import { useModifiedSWR } from '@/hooks/useModifiedSWR'
 import AnimeQuery from '@/queries/animeList.graphql'
 import Head from 'next/head'
 import data from '@/mocks/animeData.json'
 import Image from 'next/image'
-import cn from 'classnames'
+import { HiOutlineLink } from 'react-icons/hi'
 
 export default function Home() {
   // const { data, isLoading } = useModifiedSWR({
@@ -22,41 +22,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Container>
+        <h2>Page 1</h2>
+      </Container>
       <Container screen>
         <ul className="text-sm bg-white shadow-sm md:rounded-md md:border dark:shadow-transparent dark:md:border-2 dark:bg-dark-800 dark:border-gray-800">
           {data.data.Page.media.map((item, idx) => {
-            return (
-              <li
-                key={item.id}
-                className={cn(
-                  'p-5 border-b dark:border-b-gray-800 flex justify-between relative overflow-hidden',
-                  idx % 2 !== 0 && 'dark:bg-dark-900 bg-gray-50',
-                )}
-              >
-                <div className="flex items-center gap-2">
-                  <div className="w-full h-[3rem] overflow-hidden rounded-md bg-gray-200 dark:bg-gray-800 max-w-[3rem]">
-                    <Image
-                      src={item.coverImage.extraLarge}
-                      alt={item.title.romaji}
-                      width={50}
-                      height={50}
-                    />
-                  </div>
-                  <p className="truncate w-4rem">{item.title.romaji}</p>
-                </div>
-
-                <div
-                  className={cn(
-                    'absolute top-0 bottom-0 right-0 flex items-center justify-center p-5 pl-20 bg-gradient-to-l',
-                    idx % 2 !== 0
-                      ? 'from-gray-50 via-gray-50 to-transparent dark:from-dark-900 dark:via-dark-900 dark:to-transparent'
-                      : 'from-white via-white to-transparent dark:from-dark-800 dark:via-dark-800 dark:to-transparent',
-                  )}
-                >
-                  link
-                </div>
-              </li>
-            )
+            return <Preview item={item} idx={idx} key={item.id} />
           })}
         </ul>
       </Container>
