@@ -4,8 +4,6 @@ import cn from 'classnames'
 import { MdOutlineNavigateNext, MdOutlineNavigateBefore } from 'react-icons/md'
 
 export const Pagination = ({ current, setCurrent, lastPage }) => {
-  console.log(lastPage)
-
   let count = []
   for (let i = 0; i < lastPage; i++) {
     count.push(i + 1)
@@ -41,6 +39,7 @@ export const Pagination = ({ current, setCurrent, lastPage }) => {
                     className={cn(
                       'font-bold px-2 rounded-md',
                       current === i && 'outline',
+                      current + 1 > lastPage && 'hidden',
                     )}
                     onClick={() => {
                       setCurrent(i)
