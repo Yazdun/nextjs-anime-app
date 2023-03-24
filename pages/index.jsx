@@ -28,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-        <h2>Page {current}</h2>
+        <h2 className="font-bold">AnimeList - Page {current}</h2>
       </Container>
       <Container screen>
         <Table data={data?.Page?.media} />
