@@ -74,7 +74,7 @@ import { SiGithub, SiHashnode, SiLinkedin, SiTwitter } from 'react-icons/si'
 export const socials_data = [
   {
     title: 'Source Code',
-    url: 'https://github.com/Yazdun',
+    url: 'https://github.com/Yazdun/nextjs-anime-app',
     Icon: SiGithub,
   },
   {

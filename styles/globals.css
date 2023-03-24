@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-btn {
-  @apply flex items-center justify-between p-2 border-2 rounded-md dark:border-gray-800 dark:bg-dark-900;
+  @apply flex items-center justify-between p-2 bg-white border-2 rounded-md dark:border-gray-800 dark:bg-dark-900;
 }
 
 .loading {

@@ -1,4 +1,4 @@
-import { Container, Pagination, Preview, Table } from '@/components'
+import { Container, Pagination, Table } from '@/components'
 import { useModifiedSWR } from '@/hooks/useModifiedSWR'
 import AnimeQuery from '@/queries/animeList.graphql'
 import Head from 'next/head'
@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 
 export default function Home() {
   const [current, setCurrent] = useState(1)
+
   const { data, isLoading } = useModifiedSWR({
     ...AnimeQuery,
     variables: { page: current },
