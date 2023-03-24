@@ -15,7 +15,7 @@
     <a href="https://wellfound.com/u/yazdun-fadali"><strong>My Profile on Wellfound »</strong></a>
     <br />
     <br />
-    <a href="https://react-enableit-task.vercel.app/">View Demo</a>
+    <a href="https://nextjs-anime-app-lovat.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/Yazdun/nextjs-anime-app/issues">Report Bug</a>
     ·
