@@ -23,7 +23,7 @@ export const Preview = ({ item, idx }) => {
         </div>
         <div className="w-full">
           <p className="font-semibold truncate w-4rem dark:text-slate-300">
-            {item.title.romaji}
+            {item.title.native}
           </p>
           <p className="text-xs dark:text-slate-400 text-slate-600">
             <span>{item?.startDate?.year}</span> -{' '}

@@ -16,7 +16,7 @@ query AnimeQuery($id: Int, $page: Int, $perPage: Int = 20, $search: String) {
     ) {
       id
       title {
-        romaji
+        native
       }
       coverImage {
         extraLarge

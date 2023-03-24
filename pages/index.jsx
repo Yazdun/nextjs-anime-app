@@ -1,15 +1,23 @@
-import { Container, Preview, Table } from '@/components'
+import { Container, Pagination, Preview, Table } from '@/components'
 import { useModifiedSWR } from '@/hooks/useModifiedSWR'
 import AnimeQuery from '@/queries/animeList.graphql'
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+  const [current, setCurrent] = useState(1)
   const { data, isLoading } = useModifiedSWR({
     ...AnimeQuery,
-    variables: { page: 5 },
+    variables: { page: current },
   })
 
-  console.log(data.Page)
+  useEffect(() => {
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    })
+  }, [current])
 
   return (
     <>
@@ -20,11 +28,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-        <h2>Page 1</h2>
+        <h2>Page {current}</h2>
       </Container>
       <Container screen>
         <Table data={data?.Page?.media} />
       </Container>
+      <Pagination
+        lastPage={data?.Page?.pageInfo?.lastPage}
+        current={current}
+        setCurrent={setCurrent}
+      />
     </>
   )
 }
