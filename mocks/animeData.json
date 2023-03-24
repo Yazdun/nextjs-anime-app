@@ -1,0 +1,375 @@
+{
+  "data": {
+    "Page": {
+      "pageInfo": {
+        "total": 5000,
+        "currentPage": 1,
+        "lastPage": 250,
+        "hasNextPage": true,
+        "perPage": 20
+      },
+      "media": [
+        {
+          "id": 114841,
+          "title": {
+            "romaji": "Kidou Senshi Gundam G40"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114841-Dqc7DaPRdseF.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114841-Dqc7DaPRdseF.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114841-Dqc7DaPRdseF.jpg",
+            "color": "#d6431a"
+          },
+          "siteUrl": "https://anilist.co/anime/114841",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "id": 127088,
+          "title": {
+            "romaji": "Escape, RAY"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127088-jXfGV24pYgXK.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx127088-jXfGV24pYgXK.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx127088-jXfGV24pYgXK.jpg",
+            "color": "#00c9f1"
+          },
+          "siteUrl": "https://anilist.co/manga/127088",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "id": 114410,
+          "title": {
+            "romaji": "Mahou Shijou Gakuin no Kishi: Mahou Tekisei Zero no Makenzukai"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114410-E5HjN2bCjfgH.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114410-E5HjN2bCjfgH.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114410-E5HjN2bCjfgH.jpg",
+            "color": "#e46b5d"
+          },
+          "siteUrl": "https://anilist.co/manga/114410",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "id": 141581,
+          "title": {
+            "romaji": "Kaiju Yi Zuo Shan"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141581-3zcr6ZiU5nrR.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx141581-3zcr6ZiU5nrR.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx141581-3zcr6ZiU5nrR.jpg",
+            "color": "#e49328"
+          },
+          "siteUrl": "https://anilist.co/manga/141581",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "id": 114562,
+          "title": {
+            "romaji": "Xue Ying Lingzhu: Qiyu Pian"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114562-1unfHq5iTWCh.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114562-1unfHq5iTWCh.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114562-1unfHq5iTWCh.png",
+            "color": "#e4ae5d"
+          },
+          "siteUrl": "https://anilist.co/anime/114562",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 2
+          }
+        },
+        {
+          "id": 128161,
+          "title": {
+            "romaji": "Makiri no Iemitsu"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx128161-kVZ2jsCZENHT.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx128161-kVZ2jsCZENHT.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx128161-kVZ2jsCZENHT.jpg",
+            "color": "#f16b50"
+          },
+          "siteUrl": "https://anilist.co/manga/128161",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 3
+          }
+        },
+        {
+          "id": 122467,
+          "title": {
+            "romaji": "Yuutousei ja Irarenai! Majime na Mashiro-san ga Yankee Koukou ni Iru Riyuu"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx122467-UBJ5kPZAxaQC.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx122467-UBJ5kPZAxaQC.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx122467-UBJ5kPZAxaQC.jpg",
+            "color": "#f15d6b"
+          },
+          "siteUrl": "https://anilist.co/manga/122467",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 3
+          }
+        },
+        {
+          "id": 114222,
+          "title": {
+            "romaji": "Kitsune Hiyori no Konjirou"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114222-HRiqg8ZsUzon.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114222-HRiqg8ZsUzon.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114222-HRiqg8ZsUzon.png",
+            "color": "#e4ae50"
+          },
+          "siteUrl": "https://anilist.co/manga/114222",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 114071,
+          "title": {
+            "romaji": "Jingi Naki Mukotori"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx114071-rJP299YIaSWQ.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx114071-rJP299YIaSWQ.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114071-rJP299YIaSWQ.png",
+            "color": "#e45086"
+          },
+          "siteUrl": "https://anilist.co/manga/114071",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 115415,
+          "title": {
+            "romaji": "MARS RED"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx115415-cl0cdjJE8HBB.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx115415-cl0cdjJE8HBB.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx115415-cl0cdjJE8HBB.jpg",
+            "color": "#d61a28"
+          },
+          "siteUrl": "https://anilist.co/manga/115415",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 105190,
+          "title": {
+            "romaji": "Darwin's Game"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105190-veG9YDZa0GzW.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105190-veG9YDZa0GzW.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105190-veG9YDZa0GzW.jpg",
+            "color": "#e45d78"
+          },
+          "siteUrl": "https://anilist.co/anime/105190",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 127327,
+          "title": {
+            "romaji": "Mujun ga Kami wo Korosu Made"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b127327-zAtuthkPVimZ.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b127327-zAtuthkPVimZ.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b127327-zAtuthkPVimZ.jpg",
+            "color": "#e4d65d"
+          },
+          "siteUrl": "https://anilist.co/manga/127327",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 116924,
+          "title": {
+            "romaji": "Koukou Jihen  "
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116924-LIjGnv9fzwra.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx116924-LIjGnv9fzwra.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx116924-LIjGnv9fzwra.jpg",
+            "color": "#6b1a1a"
+          },
+          "siteUrl": "https://anilist.co/manga/116924",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 117024,
+          "title": {
+            "romaji": "Jujutsu Kaisen: Yoake no Ibara Michi"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117024-B5pfzB56ztF5.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117024-B5pfzB56ztF5.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx117024-B5pfzB56ztF5.jpg",
+            "color": "#f18643"
+          },
+          "siteUrl": "https://anilist.co/manga/117024",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 118117,
+          "title": {
+            "romaji": "Bless"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx118117-dh8mCahEKaCr.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx118117-dh8mCahEKaCr.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx118117-dh8mCahEKaCr.png",
+            "color": "#e43543"
+          },
+          "siteUrl": "https://anilist.co/manga/118117",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 114761,
+          "title": {
+            "romaji": "A-RA-SHI : Reborn"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b114761-C2xOMuA44zKY.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b114761-C2xOMuA44zKY.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b114761-C2xOMuA44zKY.png",
+            "color": "#0dbbfe"
+          },
+          "siteUrl": "https://anilist.co/anime/114761",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 4
+          }
+        },
+        {
+          "id": 115207,
+          "title": {
+            "romaji": "Last Knight"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx115207-yWOIUN3g6DnS.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx115207-yWOIUN3g6DnS.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx115207-yWOIUN3g6DnS.jpg",
+            "color": "#50bbe4"
+          },
+          "siteUrl": "https://anilist.co/manga/115207",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 5
+          }
+        },
+        {
+          "id": 115413,
+          "title": {
+            "romaji": "Tekkai no Senshi"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx115413-qxqVL6adcAUh.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx115413-qxqVL6adcAUh.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx115413-qxqVL6adcAUh.jpg",
+            "color": "#e4bb50"
+          },
+          "siteUrl": "https://anilist.co/manga/115413",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 6
+          }
+        },
+        {
+          "id": 134210,
+          "title": {
+            "romaji": "9-Banme no Musashi Ghost & Grey"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx134210-YkFDF3Qblf4f.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx134210-YkFDF3Qblf4f.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx134210-YkFDF3Qblf4f.jpg",
+            "color": "#f1d635"
+          },
+          "siteUrl": "https://anilist.co/manga/134210",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 6
+          }
+        },
+        {
+          "id": 121695,
+          "title": {
+            "romaji": "Mutsu Enmei Ryuu Iikai-den: Shura no Mon - Mutsu-san wa Chou Tsuyoi?!"
+          },
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121695-5YRiUCO5KqKm.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx121695-5YRiUCO5KqKm.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx121695-5YRiUCO5KqKm.jpg",
+            "color": "#e4ae86"
+          },
+          "siteUrl": "https://anilist.co/manga/121695",
+          "startDate": {
+            "year": 2020,
+            "month": 1,
+            "day": 6
+          }
+        }
+      ]
+    }
+  }
+}

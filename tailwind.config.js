@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       colors: {
         light: {
-          100: '#f5f5ff',
+          100: '#f8f8f8',
         },
         dark: {
           400: '#3a3a3a',
@@ -24,6 +24,10 @@ module.exports = {
           900: '#010409',
         },
       },
+    },
+    boxShadow: {
+      sm: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
+      xl: 'rgba(0, 0, 0, 0.4) 0px 8px 24px',
     },
   },
   plugins: [],
