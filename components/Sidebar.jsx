@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Sidebar
+|
+|  🐯 Purpose: SIDEBAR COMPONENT TO DISPLAY SOME INFORMATIONS
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { useOnClickOutside } from '@/hooks'
 import { useRef, useState } from 'react'
 import { RxHamburgerMenu } from 'react-icons/rx'

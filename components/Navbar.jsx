@@ -1,4 +1,12 @@
-import { Container, Sidebar, ThemeToggle } from '.'
+/*-------------------------------------------------------------------
+|  🐼 React FC Navbar
+|
+|  🐯 Purpose: TOP NAVIGATION BAR
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
+import { Sidebar, ThemeToggle } from '.'
 
 export const Navbar = () => {
   return (

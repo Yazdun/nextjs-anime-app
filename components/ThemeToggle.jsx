@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC ThemeToggle
+|
+|  🐯 Purpose: TOGGLE LIGHT MODE / DARK MODE
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { FiSun } from 'react-icons/fi'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
@@ -25,7 +33,7 @@ export const ThemeToggle = () => {
   if (!mounted) return null
 
   return (
-    <button className="custom-btn overflow-hidden" onClick={toggleTheme}>
+    <button className="overflow-hidden custom-btn" onClick={toggleTheme}>
       <AnimatePresence mode="wait" initial={false}>
         <motion.span {...framer_theme} className="flex" key={isDark}>
           {isDark ? (

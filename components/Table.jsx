@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Table 
+|
+|  🐯 Purpose: A TABLE TO DISPLAY ANIME PREVIEW CARDS
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import React from 'react'
 import { Preview } from '.'
 import mock from '@/mocks/animeData.json'

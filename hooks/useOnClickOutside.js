@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React Hook useOnClickOutside
+|
+|  🐯 Purpose: DETETCS CLICKS OUTSIDE AN ELEMENT
+|
+|  🐸 Returns: A REF TO AN ELEMENT AND A HANDLER FN
+*-------------------------------------------------------------------*/
+
 const { useEffect } = require('react')
 
 export function useOnClickOutside(ref, handler) {

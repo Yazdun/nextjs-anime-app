@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Preview
+|
+|  🐯 Purpose: ANIME PREVIEW CARDS TO BE SHOWN IN THE TABLE COMPONENT
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { HiOutlineLink } from 'react-icons/hi'

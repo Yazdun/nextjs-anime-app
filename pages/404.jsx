@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Custom404
+|
+|  🐯 Purpose: DISPLAYS 404 PAGE FOR UNAVAILABLE NEXTJS PAGES
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { Container } from '@/components'
 import Head from 'next/head'
 import Link from 'next/link'

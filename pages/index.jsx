@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Home
+|
+|  🐯 Purpose: THIS IS THE HOMEPAGE OF THE APPLICATION
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { Container, Pagination, Table } from '@/components'
 import { useModifiedSWR } from '@/hooks/useModifiedSWR'
 import AnimeQuery from '@/queries/animeList.graphql'

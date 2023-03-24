@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Pagination
+|
+|  🐯 Purpose: PAGINATION CONTROL FOR TOGGLING ANIME PAGES
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import React from 'react'
 import { Container } from '@/components'
 import cn from 'classnames'

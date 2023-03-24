@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Container
+|
+|  🐯 Purpose: RE-USEABLE CONTAINER COMPONENT TO WRAP THE ELEMENTS
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import cn from 'classnames'
 
 export const Container = ({

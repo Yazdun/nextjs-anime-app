@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React Hook useModifiedSWR
+|
+|  🐯 Purpose: HANDLES API REQUESTS
+|
+|  🐸 Returns: DIFFERENT STATES OF AN API REQUEST AND API DATA
+*-------------------------------------------------------------------*/
+
 import useSWR from 'swr'
 import { request } from 'graphql-request'
 
