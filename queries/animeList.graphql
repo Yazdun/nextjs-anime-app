@@ -1,0 +1,35 @@
+query AnimeQuery($id: Int, $page: Int, $perPage: Int = 20, $search: String) {
+  Page(page: $page, perPage: $perPage) {
+    pageInfo {
+      total
+      currentPage
+      lastPage
+      hasNextPage
+      perPage
+    }
+    media(
+      id: $id
+      search: $search
+      genre_in: "Action"
+      sort: START_DATE
+      startDate_greater: 2020
+    ) {
+      id
+      title {
+        romaji
+      }
+      coverImage {
+        extraLarge
+        large
+        medium
+        color
+      }
+      siteUrl
+      startDate {
+        year
+        month
+        day
+      }
+    }
+  }
+}

@@ -1,7 +1,16 @@
 import { Container } from '@/components'
+import { useModifiedSWR } from '@/hooks/useModifiedSWR'
+import AnimeQuery from '@/queries/animeList.graphql'
 import Head from 'next/head'
 
 export default function Home() {
+  // const { data, isLoading } = useModifiedSWR({
+  //   ...AnimeQuery,
+  //   variables: { page: 5 },
+  // })
+
+  // console.log(data)
+
   return (
     <>
       <Head>
