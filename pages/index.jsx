@@ -31,7 +31,7 @@ export default function Home() {
         <h2 className="font-bold">AnimeList - Page {current}</h2>
       </Container>
       <Container screen>
-        <Table data={data?.Page?.media} />
+        <Table data={data?.Page?.media} isLoading={isLoading} />
       </Container>
       <Pagination
         lastPage={data?.Page?.pageInfo?.lastPage}

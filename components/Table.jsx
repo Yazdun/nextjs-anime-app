@@ -1,9 +1,17 @@
 import React from 'react'
 import { Preview } from '.'
+import mock from '@/mocks/animeData.json'
+import { LoadingPreview } from './Preview'
 
-export const Table = ({ data }) => {
-  if (!data) {
-    return <div>loading</div>
+export const Table = ({ data, isLoading }) => {
+  if (!data || isLoading) {
+    return (
+      <ul className="text-sm bg-white shadow-sm md:rounded-md md:border dark:shadow-transparent dark:md:border-2 dark:bg-dark-800 dark:border-gray-800">
+        {mock.data.Page.media.map((item, idx) => {
+          return <LoadingPreview idx={idx} key={item.id} />
+        })}
+      </ul>
+    )
   }
 
   return (
