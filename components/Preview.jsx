@@ -17,11 +17,15 @@ export const Preview = ({ item, idx }) => {
   return (
     <li
       className={cn(
-        'p-5 border-t last-of-type:border-b md:last-of-type:border-none dark:border-gray-800 flex justify-between relative overflow-hidden md:first-of-type:border-none',
+        'border-t last-of-type:border-b md:last-of-type:border-none dark:border-gray-800 flex justify-between relative overflow-hidden md:first-of-type:border-none',
         idx % 2 !== 0 && 'dark:bg-dark-900 bg-gray-50',
       )}
     >
-      <div className="flex items-center gap-2">
+      <a
+        href={item.siteUrl}
+        target="_blank"
+        className="flex items-center w-full gap-2 p-5 "
+      >
         <div
           className={cn(
             'h-[3rem] overflow-hidden rounded-md bg-gray-200 dark:bg-gray-800 min-w-[3rem]',
@@ -45,7 +49,7 @@ export const Preview = ({ item, idx }) => {
             <span>{item?.endDate?.year || 'Now'}</span>
           </p>
         </div>
-      </div>
+      </a>
 
       <div
         className={cn(
